@@ -1,5 +1,6 @@
 from flask import Flask
 from elasticsearch import Elasticsearch
+import os
 
 es_host = os.environ['ELASTICSEARCH_URL']
 print('Elastic host is {}'.format(es_host))
